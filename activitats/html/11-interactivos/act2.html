@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>buscador con rangos</title>
+</head>
+
+<body>
+  <header>
+    <h1>Buscador de Smartphones</h1>
+    <p>Encuentra tu móvil por marca y precio</p>
+  </header>
+
+  <section>
+    <form>
+      
+      <p>
+        <label for="marca">Marca del smartphone:</label><br>
+        <input list="marcas" id="marca" name="marca" placeholder="Escribe o selecciona">
+        
+        <datalist id="marcas">
+          <option value="Samsung">
+          <option value="Ulefone">
+          <option value="Xiaomi">
+          <option value="Huawei">
+          <option value="Motorola">
+          <option value="Cartepillar">
+        </datalist>
+      </p>
+
+      <p>
+        <label for="precio">Rango de precio:</label><br>
+        <select id="precio" name="precio">
+          <option value="">-- Selecciona un rango --</option>
+          <option value="0-200">Menos de 200 €</option>
+          <option value="200-300">200 € - 300 €</option>
+          <option value="400-500">400 € - 500 €</option>
+          <option value="500+">Más de 500 €</option>
+        </select>
+      </p>
+
+      <p>
+        <button type="submit">Buscar</button>
+      </p>
+
+    </form>
+  </section>
+
+</body>
+</html>
