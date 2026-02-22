@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro de usuario</title>
+</head>
+
+<body>
+  <header>
+    <h1>Formulario de registro</h1>
+    <p>Completa tus datos para crear una cuenta.</p>
+  </header>
+
+  <main>
+    <form>
+
+      <fieldset>
+        <legend>Datos personales</legend>
+
+        <p>
+          <label for="nombre">Nombre:</label><br>
+          <input 
+            type="text" 
+            id="nombre" 
+            name="nombre" 
+            required 
+            autocomplete="given-name">
+        </p>
+
+        <p>
+          <label for="email">Correo electrónico:</label><br>
+          <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            required 
+            autocomplete="email">
+        </p>
+
+        <p>
+          <label for="password">Contraseña:</label><br>
+          <input 
+            type="password" 
+            id="password" 
+            name="password" 
+            required 
+            aria-describedby="ayuda-pass">
+        </p>
+
+        <p id="ayuda-pass">
+          La contraseña debe tener al menos 8 caracteres.
+        </p>
+        
+        <p>
+          <label for="pais">País:</label><br>
+          <select id="pais" name="pais">
+            <option value="">Selecciona tu país</option>
+            <option>España</option>
+            <option>México</option>
+            <option>Argentina</option>
+            <option>Colombia</option>
+          </select>
+        </p>
+
+
+      <p>
+        <button type="submit">Registrarse</button>
+      </p>
+
+    </form>
+  </main>
+
+</body>
+</html>
