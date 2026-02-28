@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-        <style>
-        body {
-            background-color: rgba(121, 163, 78, 0.863);
-        }       
-        .cuadrado {
-        --lado: 10rem;
-        width: calc(2 * var(--lado));
-        height: var(--lado);
-        background-color: #842d83;
-        } 
-        </style>
-        </head>
-        <body><div class="cuadrado"></div></body>
+    <style>
+    .rectangulo {
+        font-family: 'Arial Black', Arial, sans-serif;
+        --altura: 400px;     
+        font-size: 360px;    
+
+        height: var(--altura);
+        width: calc(var(--altura) * 2);
+
+        background-color: rgb(180, 70, 109);
+    }
+</style>
+</head>
+<body>
+    <div class="rectangulo">Hola</div>
+</body>
+</html>
