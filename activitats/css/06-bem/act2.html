@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comentarios</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: 40px auto;
+  background-color: #f492c6;
+}
+
+h3 {
+  color: rgb(99, 8, 57);
+  margin: 0 0 20px 0;
+  font-weight: 500;
+  font-size: 60px;
+}
+
+form {
+  background-color: rgb(99, 8, 57);
+  border: 4px solid rgb(99, 8, 57);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+button {
+  width: 140px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.comentario {
+  border: 4px solid #53052f;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  background: #f5f5f5;
+}
+</style>
 </head>
+
 <body>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates minus voluptatibus iure rem tenetur recusandae asperiores autem quis quia quas veritatis consequatur, maiores exercitationem ab accusantium, cumque itaque sequi explicabo?</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus voluptas quisquam nulla, minima distinctio molestias reprehenderit asperiores. Ad, ex eum? Neque hic obcaecati corporis nisi amet reprehenderit officia facere dolore?</p>
+
+<div id="comentarios">
+  <h3>Comentarios</h3>
+
+
+  <form id="contenido" method="POST" >
+    <input type="text" name="usuario" placeholder="Tu nombre de usuario" required>
+    <textarea name="comentario" placeholder="Escribe un comentario..." required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+
+
+    <div class="comentario">
+        <strong>Usuario1:</strong>
+        <p>¡Este es un comentario de ejemplo, macarrones con queso!</p>
+
+
+
+  </div>
+</div>
+
 </body>
 </html>

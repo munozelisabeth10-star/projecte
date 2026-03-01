@@ -1,11 +1,78 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="cat">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
+    <style>
+
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    }
+
+    header {
+    font-family: 'Arial Black', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(180, 70, 109);
+    color: white;
+    padding: 10px 20px;
+    }
+
+    nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+    font-size: 22px;
+    }
+
+    nav a:hover {
+    color: rgb(143, 181, 38);
+    }
+
+    .search-form input {
+    padding: 6px 10px;
+    border-radius: 4px;
+    border: 4px solid #790846;
+    }
+
+    .search-form button {
+    margin-left: 5px; 
+    padding: 6px 10px;    
+    border-radius: 4px;
+    border: 4px solid #790846;
+    background: #590631;
+    color: white;
+    cursor: pointer;
+    }
+
+    .search-form button:hover {
+    background: rgb(143, 181, 38);
+    }
+
+
+    </style>
+    <header>
+    
+    <div class="logo"><img src="miaupeque.jpg" alt="mimiau" width="100"></div>
+
+    <nav>
+        <a href="#inici">Inici</a>
+        <a href="#servicis">Servicis</a>
+        <a href="#nosaltres">Nosaltres</a>
+        <a href="#contacte">Contacte</a>
+    </nav>
+
+
+    <form class="search-form" action="#" method="get">
+        <input type="text" name="q" placeholder="Buscar...">
+        <button type="submit">Buscar</button>
+    </form>
+    </header>
+
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates minus voluptatibus iure rem tenetur recusandae asperiores autem quis quia quas veritatis consequatur, maiores exercitationem ab accusantium, cumque itaque sequi explicabo?</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus voluptas quisquam nulla, minima distinctio molestias reprehenderit asperiores. Ad, ex eum? Neque hic obcaecati corporis nisi amet reprehenderit officia facere dolore?</p>
 </body>
