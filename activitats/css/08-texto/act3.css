@@ -2,13 +2,16 @@
         background-color: #a2b5fd;
         font-size: 16px;
         font-family: "Times New Roman", Times, serif;
-        font-weight: normal;}
+        font-weight: normal;
+    }
 
     h1{
         font-size: 40px;    
         font-style: italic;
         letter-spacing: 1.2rem;
-        font-weight: bold;}
+        font-weight: bold;
+    }
+
     h1:hover{
         font-family: cursive;
         color: rgb(57, 39, 175);
