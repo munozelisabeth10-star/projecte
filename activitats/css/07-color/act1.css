@@ -1,0 +1,25 @@
+        body{
+            font-family: Arial, sans-serif;
+            background-color: rgb(255, 255, 255);
+        }
+        .yellow {
+            color: rgb(213, 213, 58);
+        }
+
+        .negrita {
+            font-weight: 700;
+        }
+
+        .fluorazul {
+            background-color: rgb(43, 92, 157);
+            color:white
+        }
+
+        .fluorverde {
+            background-color: rgb(56, 157, 43);
+            color:white
+        }
+
+        .lilado {
+            color: rgb(163, 118, 241);
+        }
