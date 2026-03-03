@@ -4,14 +4,14 @@ body{
   
 @font-face {
     font-family: 'TituloFont';
-    src: url('/activitats/css/08-texto/Bebas_Neue/BebasNeue-Regular.ttf') format('truetype');
+    src: url('activitats/css/08-texto/Bebas_Neue/BebasNeue-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'TextoFont';
-    src: url('/activitats/css/08-texto/Betania_Patmos/BetaniaPatmos-Regular.ttf') format('truetype');
+    src: url('activitats/css/08-texto/Betania_Patmos/BetaniaPatmos-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
