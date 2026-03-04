@@ -1,0 +1,60 @@
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: #3672af;
+        padding: 20px;
+    }
+
+    .chat {
+        max-width: 600px;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+        border-color: #0d0101;
+    }
+
+    .mensaje {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 18px;
+    }
+
+    .avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%; /* avatar redondo */
+        object-fit: cover;
+    }
+
+    .contenido {
+        background: #eef2f7;
+        padding: 10px 14px;
+        border-radius: 10px;
+        max-width: 80%;
+    }
+
+    .nombre {
+        font-weight: bold;
+        font-size: 14px;
+        color: #2c3e50;
+    }
+
+    .fecha {
+        font-size: 11px;
+        color: #7f8c8d;
+        margin-bottom: 4px;
+    }
+
+    .texto {
+        font-size: 14px;
+        color: #333;
+    }
+
+
+    .mensaje.usuario2 {
+        flex-direction: row-reverse;
+    }
+
+    .mensaje2.contenido.contenido {
+        background: #4668ac;
+    }
