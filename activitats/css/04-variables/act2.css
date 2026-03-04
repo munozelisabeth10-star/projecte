@@ -1,0 +1,10 @@
+    .rectangulo {
+        font-family: 'Arial Black', Arial, sans-serif;
+        --altura: 400px;     
+        font-size: 360px;    
+
+        height: var(--altura);
+        width: calc(var(--altura) * 2);
+
+        background-color: rgb(180, 70, 109);
+    }

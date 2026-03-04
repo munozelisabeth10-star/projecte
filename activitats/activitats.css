@@ -1,0 +1,83 @@
+h1{
+        max-width: 400px;
+        margin: auto;
+        background: rgb(205, 89, 170);
+        padding: 20px;
+        border-radius: 12px;
+        border: 2px solid black;
+        margin-bottom: 18px;
+}
+
+h2{
+        max-width: 200px;
+        text-justify:distribute;
+        margin: auto;
+        background: rgb(157, 123, 123);
+        padding: 20px;
+        border-radius: 12px;
+        border-style: dotted solid double dashed black;
+        margin-bottom: 18px;
+}
+
+p{
+        max-width: 100px;
+        margin: auto;
+        background: rgb(237, 87, 87);
+        padding: 20px;
+        border-radius: 12px;
+        border: 2px solid black;
+        margin-bottom: 18px;
+
+}
+/*
+.formato1{}
+.hipervinculo1{}
+.listas1{}
+.imagenes1{}
+.tablas1{}
+.formularios1{}
+.multimedia1{}
+.contenido1{}
+.interactivos1{}
+.accesibilidad1{}
+*/
+summary {
+  list-style: none;
+}
+.selectors2{
+    background-color: rgb(50, 50, 50);        
+}
+.variables2{
+    background-color: rgb(180, 70, 109);
+}
+.bem2{
+    background-color: #f492c6;
+}
+.color2{
+    background: rgb(197, 180, 255);
+}
+.texto2{
+    background-color: #a2b5fd;
+}
+.medidias2{
+    background-color: rgb(190, 244, 226);
+}
+.imagenes2{
+    background: #3672af;
+}
+.display2{
+    background-color: rgb(32, 72, 58);
+}
+
+/*
+.margin2{}
+.padding2{}
+.border2{}
+.listas2{}
+.overflow2{}
+.filters2{}
+.transform2{}
+.transition2{}
+.herramientas2{}
+*/
+

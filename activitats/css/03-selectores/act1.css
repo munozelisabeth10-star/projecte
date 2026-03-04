@@ -1,0 +1,16 @@
+        body {
+            background-color: rgb(50, 50, 50);
+        }
+        
+        .amarillo {
+            color: yellow;
+        }
+        .rojo {
+            color: red;
+        }
+        .verde {
+            color: rgb(0, 255, 81);
+        }    
+        .rosa {
+            color: rgb(255, 0, 242);
+        }  
