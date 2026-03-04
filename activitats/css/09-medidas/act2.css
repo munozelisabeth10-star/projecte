@@ -1,0 +1,33 @@
+body {
+    font-family: "TextoFont", Georgia, "Times New Roman", serif;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 40px;
+}
+.p1{
+    background-color: rgb(32, 72, 58);
+    width: 80rem;
+    border-bottom: 10px solid  rgb(255, 255, 255);
+    float: left;
+}
+
+.p2{
+    background-color: rgb(49, 101, 84);
+    width: 90rem;
+    border-bottom: 10px solid  rgb(255, 255, 255);
+    float: left;
+}
+
+.p3{
+    background-color: rgb(83, 177, 146);
+    width: 100rem;
+    border-bottom: 10px solid  rgb(255, 255, 255);
+    float: left;
+}
+
+.p4{
+    background-color: aquamarine;
+    width: 110rem;
+    border-bottom: 10px solid  rgb(255, 255, 255);
+    float: left;
+}

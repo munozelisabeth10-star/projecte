@@ -1,0 +1,32 @@
+/* Fuente base del texto */
+body {
+    background-color: #a2b5fd;
+    font-family: "TextoFont", Georgia, "Times New Roman", serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 40px;
+}
+
+
+.textonormal {
+    text-align: justify;
+    margin-bottom: 1.5em;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+.textomayusculas {
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+
+.amarillo {
+    background-color: #fdf5b4;
+}
