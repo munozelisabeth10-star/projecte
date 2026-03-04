@@ -1,0 +1,15 @@
+body {
+    font-family: "TextoFont", Georgia, "Times New Roman", serif;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 40px;
+    background-color: rgb(32, 72, 58);
+    border: 3px solid #000;
+    float: left;
+}
+
+.resaltado{
+    opacity: 0.33;
+    background-color: rgb(254, 255, 205);
+    color: #000;
+}
