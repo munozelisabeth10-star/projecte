@@ -9,7 +9,6 @@ body {
 }
 
 .resaltado{
-    opacity: 0.33;
-    background-color: rgb(254, 255, 205);
+    background-color: rgb(247, 249, 96); 
     color: #000;
 }

@@ -1,7 +1,33 @@
+    .bg-grid {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+    }
+
+    .bg-grid div:nth-child(3) { background:#f88a8a; }
+    .bg-grid div:nth-child(1) { background:#4ecdc4; }
+    .bg-grid div:nth-child(2) { background:#ffe66d; }
+    .bg-grid div:nth-child(4) { background:#8659df; }
+    .bg-grid div:nth-child(5) { background:#54a0ff; }
+    .bg-grid div:nth-child(6) { background:#1dd1a1; }
+    .bg-grid div:nth-child(7) { background:#ff9ff3; }
+    .bg-grid div:nth-child(8) { background:#fea557; }
+    .bg-grid div:nth-child(9) { background:#48dbfb; }
+    .bg-grid div:nth-child(10) { background:#ff7979; }
+    .bg-grid div:nth-child(11) { background:#4bfff3; }
+    .bg-grid div:nth-child(12) { background:#ffe356; }
+    .bg-grid div:nth-child(14) { background:#8659df; }
+    .bg-grid div:nth-child(15) { background:#54a0ff; }
+    .bg-grid div:nth-child(16) { background:#1dd1a1; }
+    .bg-grid div:nth-child(13) { background:#ff9ff3; }
+
 h1{
         max-width: 400px;
         margin: auto;
-        background: rgb(205, 89, 170);
+        background: rgb(227, 172, 211);
         padding: 20px;
         border-radius: 12px;
         border: 2px solid black;
@@ -12,38 +38,100 @@ h2{
         max-width: 200px;
         text-justify:distribute;
         margin: auto;
-        background: rgb(157, 123, 123);
+        background: rgb(216, 214, 214);
         padding: 20px;
         border-radius: 12px;
-        border-style: dotted solid double dashed black;
+        border-style: dashed black;
+        margin-top: 18px;
         margin-bottom: 18px;
 }
 
-p{
-        max-width: 100px;
+u1{
+        width: 200px;
         margin: auto;
-        background: rgb(237, 87, 87);
+        background: rgb(255, 255, 255);
         padding: 20px;
+        opacity: 1;
         border-radius: 12px;
         border: 2px solid black;
         margin-bottom: 18px;
-
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 }
-/*
-.formato1{}
-.hipervinculo1{}
-.listas1{}
-.imagenes1{}
-.tablas1{}
-.formularios1{}
-.multimedia1{}
-.contenido1{}
-.interactivos1{}
-.accesibilidad1{}
-*/
+
+u{
+        width: 200px;
+        margin: auto;
+        background: rgb(255, 255, 255);
+        padding: 20px;
+        opacity: 0.5;
+        border-radius: 12px;
+        border: 2px solid black;
+        margin-bottom: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+p{
+        max-width: 1800px;
+        margin: auto;
+        padding: 20px;
+        border-radius: 12px;
+        border: 2px solid black;
+        color: black;
+        margin-bottom: 5px;
+        display: flex;
+}
+
 summary {
   list-style: none;
 }
+.formato1{
+    background-color: black;
+    opacity: 1; 
+}
+.hipervinculo1{
+    background-color: black;
+    opacity: 0.9 ;  
+}
+.listas1{
+    background-color: black;
+    opacity: 0.8;  
+}
+.imagenes1{
+    background-color: black;
+    opacity: 0.7; 
+}
+.tablas1{
+    background-color: black;
+    opacity: 0.6; 
+}
+
+.formularios1{
+    background-color: black;
+    opacity: 0.5; 
+}
+.multimedia1{
+    background-color: black;
+    opacity: 0.4;  
+}
+.contenido1{
+    background-color: black;
+    opacity: 0.3; 
+}
+.interactivos1{
+    background-color: black;
+    opacity: 0.2; 
+}
+.accesibilidad1{
+    background-color: black;
+    opacity: 0.1; 
+}
+
+
+
 .selectors2{
     background-color: rgb(50, 50, 50);        
 }
@@ -69,15 +157,33 @@ summary {
     background-color: rgb(32, 72, 58);
 }
 
-/*
-.margin2{}
-.padding2{}
-.border2{}
-.listas2{}
-.overflow2{}
-.filters2{}
-.transform2{}
-.transition2{}
-.herramientas2{}
-*/
+.margin2{
+    background-color: rgb(65, 151, 43);
+}
+.padding2{
+    background-color: rgb(186, 204, 68);
+}
+.border2{
+    background-color: rgb(245, 245, 41);
+}
+.listas2{
+    background-color: rgb(220, 79, 126);
+}
+.overflow2{
+    background-color: rgb(234, 136, 61);
+}
+
+.filters2{
+    background-color: rgb(178, 94, 195);
+}
+.transform2{
+    background-color: rgb(40, 25, 135);
+}
+.transition2{
+    background-color: rgb(94, 163, 195);
+}
+.herramientas2{
+    background-color: rgb(224, 71, 71);
+}
+/**/
 
