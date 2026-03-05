@@ -20,9 +20,9 @@
     .bg-grid div:nth-child(11) { background:#fbb4cd; }
     .bg-grid div:nth-child(12) { background:#c8fbb4; }
     .bg-grid div:nth-child(13) { background:#c8fbb4; }
-    .bg-grid div:nth-child(14) { background:#ff9ff3; }
+    .bg-grid div:nth-child(14) { background:#fbb4cd;  }
     .bg-grid div:nth-child(15) { background:#c8fbb4; }
-    .bg-grid div:nth-child(16) { background:#ff9ff3; }
+    .bg-grid div:nth-child(16) { background:#fbb4cd;  }
 
 h1{
         max-width: 400px;
@@ -129,6 +129,7 @@ summary {
     background-color: black;
     opacity: 0.1; 
 }
+
 
 
 
