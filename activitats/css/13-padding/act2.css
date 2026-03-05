@@ -1,10 +1,50 @@
 .superbloc{
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 .bloc{
-    background-color: rgb(32, 72, 58);
-    padding: 10px;
-    border-radius: 5px;
+  align-items:center;
+  padding: 12px;
 }
+.color1{
+  color: rgb(124, 137, 39)
+}
+.color2{
+  background-color: rgb(186, 204, 68)
+}
+
+.color3{
+  color: rgb(255, 255, 255)
+}
+.color4{
+  background-color: rgb(237, 250, 154)
+}
+
+
+
+button {
+  width: 150px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+ul{
+  list-style: none;
+}
+
+.superbloc div:nth-child(1) { background: rgb(237, 250, 154) }
+.superbloc div:nth-child(2) { background: rgb(186, 204, 68) }
+.superbloc div:nth-child(3) { background: rgb(237, 250, 154) }
+.superbloc div:nth-child(4) { background: rgb(186, 204, 68)  }
+
+
+  .superbloc {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+  }
+
+
