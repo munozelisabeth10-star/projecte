@@ -1,0 +1,10 @@
+.superbloc{
+  display: flex;
+  gap: 20px;
+}
+
+.bloc{
+    background-color: rgb(32, 72, 58);
+    padding: 10px;
+    border-radius: 5px;
+}
