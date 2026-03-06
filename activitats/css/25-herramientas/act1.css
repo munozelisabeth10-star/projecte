@@ -1,0 +1,37 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:98vh;
+    background-color: rgb(158, 126, 255);
+  }
+
+    .contenedor{
+    position:relative;
+    width:300px;
+    height:150px;
+    }
+
+  .circulo{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    position:absolute;
+  }
+
+  .sol{
+    background:rgb(235, 255, 54);
+    left:0;
+    z-index:1;
+  }
+
+  .luna{
+    background:rgb(131, 131, 157);
+    left:120px;
+    transition:left 0.5s ease;
+    z-index:2;
+  }
+
+  .luna:hover{
+    left:0px;
+  }
