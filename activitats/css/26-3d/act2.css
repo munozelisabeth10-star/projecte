@@ -1,0 +1,23 @@
+.pared {
+    height:50vh;
+    background-image:url("wall.jpg");
+    background-size:cover;
+    background-position:center;
+    z-index:-1;
+}
+.oveja{
+    height:50vh;
+    filter: drop-shadow(-200px -100px 4px rgb(0, 0, 0));
+    padding:40px;
+    text-align:center;
+    z-index:6;
+}
+.suelo {
+    height:50vh;
+    transform: rotate(0deg) skew(25deg, 25deg);
+    background-image:url("floor.jpg");
+    background-size:cover;
+    background-position:center;
+    z-index:-2;
+    transform: rotate(15deg);
+}
