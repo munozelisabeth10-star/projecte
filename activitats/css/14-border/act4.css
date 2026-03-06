@@ -1,0 +1,11 @@
+body{
+      background-color: rgb(65, 151, 43);
+}
+.cuadrado{
+  border: 20px solid;
+  border-image: linear-gradient(170deg, red, blue) 1;
+  width:300px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
