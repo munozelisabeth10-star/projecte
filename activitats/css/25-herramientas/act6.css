@@ -1,0 +1,42 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:90vh;
+    background-color: rgb(158, 126, 255);
+}
+
+
+.soporte{
+    width:200px;
+    height:200px;
+    position:relative;
+}
+
+.pendulo{
+    width:4px;
+    height:150px;
+    background:rgb(48, 40, 72);
+    position:absolute;
+    top:0;
+    left:50%;
+    transform-origin:top;
+    animation: balanceo 2s ease-in-out infinite;
+}
+
+.bola{
+    width:30px;
+    height:30px;
+    background:white;
+    border-radius:50%;
+    position:absolute;
+    bottom:-15px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+@keyframes balanceo{
+    0%{ transform:rotate(-20deg); }
+    50%{ transform:rotate(30deg); }
+    100%{ transform:rotate(-20deg); }
+}
