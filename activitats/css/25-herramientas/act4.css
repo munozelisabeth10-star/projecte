@@ -1,0 +1,66 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:90vh;
+    background-color: rgb(158, 126, 255);
+}
+
+
+.reloj{
+    width:200px;
+    height:200px;
+    border:8px solid rgb(62, 62, 62);
+    border-radius:50%;
+    position:relative;
+    background-color: aliceblue;
+}
+
+
+.centro{
+    width:10px;
+    height:10px;
+    background:rgb(62, 62, 62);
+    border-radius:50%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.aguja{
+    position:absolute;
+    bottom:50%;
+    left:50%;
+    transform-origin:bottom;
+    transform:translateX(-50%);
+}
+
+.segundos{
+    width:2px;
+    height:80px;
+    background:red;
+    animation:girar 60s linear infinite;
+}
+
+
+.minutos{
+    width:4px;
+    height:70px;
+    background:black;
+    animation:girar 3600s linear infinite;
+}
+
+
+.horas{
+    width:6px;
+    height:50px;
+    background:black;
+    animation:girar 43200s linear infinite;
+}
+
+
+@keyframes girar{
+    from{ transform:translateX(-50%) rotate(0deg); }
+    to{ transform:translateX(-50%) rotate(360deg); }
+}

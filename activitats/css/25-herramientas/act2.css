@@ -1,0 +1,35 @@
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-color: rgb(158, 126, 255);
+}
+
+.noria{
+    position:relative;
+    width:300px;
+    height:300px;
+    border:6px solid rgb(43, 37, 61);
+    border-radius:50%;
+    animation: rotar 20s linear infinite;
+}
+
+.cabina{
+    position:absolute;
+    width:40px;
+    height:40px;
+}
+
+
+.c1{ top:-20px; left:130px; }
+.c2{ top:130px; right:-20px; }
+.c3{ bottom:-20px; left:130px; }
+.c4{ top:130px; left:-20px; }
+
+
+@keyframes rotar{
+    from{ transform:rotate(0deg); }
+    to{ transform:rotate(360deg); }
+}
