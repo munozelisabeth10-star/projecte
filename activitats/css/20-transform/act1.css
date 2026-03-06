@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(40, 25, 135);
+}
+button {
+  min-width: 240px;
+  min-height: 240px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+button:hover{
+  transform: rotate(15deg);
+  background-color:aquamarine;
+}
