@@ -1,3 +1,6 @@
+    body{
+            align-items: center;
+    }
     .bg-grid {
       position: fixed;
       inset: 0;
@@ -27,21 +30,24 @@
 h1{
         max-width: 400px;
         margin: auto;
-        background: rgb(227, 172, 211);
+        background: rgb(155, 17, 93);
         padding: 20px;
         border-radius: 12px;
         border: 2px solid black;
         margin-bottom: 18px;
+        color:rgb(255, 255, 255);
 }
 
 h2{
         max-width: 200px;
-        text-justify:distribute;
         margin: auto;
-        background: rgb(216, 214, 214);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(255, 76, 175);
+        color:white;
         padding: 20px;
         border-radius: 12px;
-        border-style: dashed black;
         margin-top: 18px;
         margin-bottom: 18px;
 }
@@ -50,14 +56,14 @@ u1{
         width: 200px;
         margin: auto;
         background: rgb(255, 255, 255);
+        border: 5px solid  rgb(155, 17, 93);
         padding: 20px;
-        opacity: 1;
+        opacity: 0.8;
         border-radius: 12px;
-        border: 2px solid black;
         margin-bottom: 18px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
 }
 
 u{
@@ -65,9 +71,9 @@ u{
         margin: auto;
         background: rgb(255, 255, 255);
         padding: 20px;
-        opacity: 0.5;
+        opacity: 0.8;
         border-radius: 12px;
-        border: 2px solid black;
+        border: 5px solid black;
         margin-bottom: 18px;
         display: flex;
         align-items: center;
@@ -75,7 +81,7 @@ u{
 }
 
 p{
-        max-width: 1800px;
+        max-width: 100%;
         margin: auto;
         padding: 20px;
         border-radius: 12px;
@@ -90,101 +96,117 @@ summary {
 }
 .formato1{
     background-color: black;
-    opacity: 1; 
+    border-radius: 12px;
 }
 .hipervinculo1{
-    background-color: black;
-    opacity: 0.9 ;  
+    background-color: rgb(33, 33, 33);
+    border-radius: 12px;
 }
 .listas1{
-    background-color: black;
-    opacity: 0.8;  
+    background-color: rgb(66, 66, 66);
+    border-radius: 12px;
 }
 .imagenes1{
-    background-color: black;
-    opacity: 0.7; 
+    background-color: rgb(93, 93, 93);
+    border-radius: 12px;
 }
 .tablas1{
-    background-color: black;
-    opacity: 0.6; 
+    background-color: rgb(144, 143, 143);
+    border-radius: 12px;
 }
 
 .formularios1{
-    background-color: black;
-    opacity: 0.5; 
+    background-color: rgb(170, 169, 169);
+    border-radius: 12px;
 }
 .multimedia1{
-    background-color: black;
-    opacity: 0.4;  
+    background-color: rgb(195, 194, 194);
+    border-radius: 12px;
 }
 .contenido1{
-    background-color: black;
-    opacity: 0.3; 
+    background-color: rgb(222, 220, 220);
+    border-radius: 12px;
 }
 .interactivos1{
-    background-color: black;
-    opacity: 0.2; 
+    background-color: rgb(235, 235, 235);
+    border-radius: 12px;
 }
 .accesibilidad1{
-    background-color: black;
-    opacity: 0.1; 
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
 }
-
-
-
 .selectors2{
-    background-color: rgb(50, 50, 50);    
+    background-color: rgb(50, 50, 50); 
+    border-radius: 12px;   
 }
 .variables2{
     background-color: rgb(180, 70, 109);
+    border-radius: 12px;
 }
 .bem2{
     background-color: #f492c6;
+    border-radius: 12px;
 }
 .color2{
     background: rgb(197, 180, 255);
+    border-radius: 12px;
 }
 .texto2{
     background-color: #a2b5fd;
+    border-radius: 12px;
 }
 .medidias2{
     background-color: rgb(190, 244, 226);
+    border-radius: 12px;
 }
 .imagenes2{
-    background: #3672af;
+    background: #3774b2;
+    border-radius: 12px;
 }
 .display2{
     background-color: rgb(32, 72, 58);
+    border-radius: 12px;
 }
-
 .margin2{
     background-color: rgb(245, 245, 41);
+    border-radius: 12px;
 }
 .padding2{
     background-color: rgb(186, 204, 68);
+    border-radius: 12px;
 }
 .border2{
     background-color: rgb(65, 151, 43);
+    border-radius: 12px;
     
 }
 .listas2{
     background-color: rgb(220, 79, 126);
+    border-radius: 12px;
 }
 .overflow2{
     background-color: rgb(234, 136, 61);
+    border-radius: 12px;
 }
 
 .filters2{
     background-color: rgb(178, 94, 195);
+    border-radius: 12px;
 }
 .transform2{
     background-color: rgb(40, 25, 135);
+    border-radius: 12px;
 }
 .transition2{
     background-color: rgb(94, 163, 195);
+    border-radius: 12px;
 }
 .herramientas2{
     background-color: rgb(88, 56, 184);
+    border-radius: 12px;
 }
-/**/
+.a3d2{
+    background-color: #dc2606;
+    border-radius: 12px;
+}
 
