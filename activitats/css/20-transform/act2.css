@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(142, 131, 211);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+    
+.modal{
+    margin-top: 300px;
+    max-height: 200px;
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(40, 25, 135);
+    color: white;
+    padding: 10px 20px;
+}
+
+.modal:hover{
+    transform: scale(2);
+
+}

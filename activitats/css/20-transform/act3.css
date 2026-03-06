@@ -1,0 +1,38 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#77a5ec;
+  }
+
+    .contenedor{
+    position:relative;
+    width:300px;
+    height:150px;
+    }
+
+  .circulo{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    position:absolute;
+  }
+
+  .rojo{
+    background:rgb(255, 54, 54);
+    left:0;
+    z-index:1;
+  }
+
+  .azul{
+    background:rgb(46, 46, 255);
+    opacity:0.5;
+    left:120px;
+    transition:left 0.5s ease;
+    z-index:2;
+  }
+
+  .azul:hover{
+    left:40px;
+  }
