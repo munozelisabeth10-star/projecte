@@ -30,7 +30,7 @@ button {
 }
 
 ul{
-  list-style: none;
+  list-style-type: '🐱';
 }
 
 .superbloc div:nth-child(1) { background: rgb(237, 250, 154) }
