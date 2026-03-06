@@ -1,0 +1,6 @@
+body{
+    background-color: rgb(178, 94, 195);
+}
+.mimi:hover{
+    filter: grayscale(100%);
+}
