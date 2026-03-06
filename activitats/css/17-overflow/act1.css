@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(234, 136, 61);
+    padding:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor{
+    background-color: rgb(255, 204, 166);
+
+}
+
+.cajita{
+    background-color: rgb(255, 204, 166);
+    max-width:450px;
+    max-height: 120px;
+    margin:auto;
+    overflow:auto;
+    overflow: hidden visible;    
+    margin-bottom:5px;
+    margin-top:5px;
+    margin-left:20px;
+
+}
+
+details{
+    list-style: none;
+    
+    border:1px solid #000000;
+    margin-bottom:0px;
+    padding:20px;
+}
+
+h2{
+    color: rgb(189, 86, 7);
+    margin-bottom:5px;
+    margin-top:5px;
+    margin-left:20px;
+}
