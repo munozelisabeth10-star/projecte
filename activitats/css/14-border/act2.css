@@ -1,0 +1,13 @@
+body{
+      background-color: rgb(65, 151, 43);
+}
+.cuadrado{
+  border-left: 20px dashed rgb(0, 0, 0);
+  border-right: 20px dashed rgb(0, 0, 0);
+  border-top: 20px solid rgb(0, 0, 0);
+  border-bottom: 20px solid rgb(0, 0, 0);
+  width:300px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
