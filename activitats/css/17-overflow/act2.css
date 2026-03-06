@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(234, 136, 61);
+}
+.tabla-responsive{
+    width: 100%;
+    overflow: auto;
+}
+
+table{
+    background-color: rgb(243, 186, 143);
+    min-width: 600px;
+}
+
+th, td{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px;
+    text-align: left;
+}
