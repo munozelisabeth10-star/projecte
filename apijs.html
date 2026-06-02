@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <title>Projecte Final</title>
+    <link rel="stylesheet" href="apijs.css">
+</head>
+<body>
+
+<button onclick="carregar()">Carregar previsió del temps</button>
+<div id="contenidor"></div>
+
+<script>
+let apiKey = "2927667c4dc5f32dbf30261b81b79faf";
+//Elisabeth Muñoz Miró
+
+function carregar() {
+  let cont = document.getElementById("contenidor");
+  cont.innerHTML = "";
+
+ fetch(`https://api.openweathermap.org/data/2.5/forecast?q=Lleida&appid=2927667c4dc5f32dbf30261b81b79faf&region=ES&language=es-ES`)
+    .then(res => res.json())
+    .then(data => {
+
+      console.log(data);
+      data.list.forEach(temps => {
+        
+
+        let card = document.createElement("div");
+        card.classList.add("card");
+        
+        let img = document.createElement("img");
+        //accedim on estan totes les icones + referencia al array creat diariament + referencia al nom q te dintre de la api + format de la imatge
+        img.src = "https://openweathermap.org/payload/api/media/file/" +temps.weather[0].icon + ".png";
+        img.classList.add("img");
+        
+        img.style.width = "100px";
+        img.style.height = "100px";
+
+        let description = document.createElement("h3");
+        description.textContent = temps.weather[0].description;
+
+        let titol = document.createElement("h3");
+        titol.textContent = `Temperatura actual: ${temps.main.temp}°C`;
+
+        let min = document.createElement("h4");
+        min.textContent = `Temperatura minima: ${temps.main.temp_min}°C`;
+        
+        let max = document.createElement("h4");
+        max.textContent = `Temperatura maxima: ${temps.main.temp_max}°C`;
+
+        
+        card.appendChild(img);
+        card.appendChild(description);
+        card.appendChild(titol);
+        card.appendChild(min);
+        card.appendChild(max);
+        cont.appendChild(card);
+      });
+
+    });
+}
+</script>
