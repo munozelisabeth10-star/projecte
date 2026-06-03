@@ -34,7 +34,7 @@
         position: absolute;
         inset: 0;
         height: 190px;
-        background: linear-gradient(187deg, #fbb4cd, rgb(136, 1, 30));
+        background: linear-gradient(187deg, #fbb4cd, rgb(173, 21, 92));
         border-bottom: 4px solid rgb(136, 1, 30);
         z-index: -2;
     }
