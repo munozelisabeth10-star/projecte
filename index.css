@@ -20,8 +20,8 @@
         align-items: center;
         padding: 10px 20px;
         text-shadow:
-            4px 0 rgb(107, 1, 24),
-            -4px 0 rgb(107, 1, 24),
+            4px 0 rgb(190, 19, 90),
+            -4px 0 rgb(190, 19, 90),    
             0 4px rgb(107, 1, 24),
             0 -4px rgb(107, 1, 24);
         color: white;
@@ -34,8 +34,8 @@
         position: absolute;
         inset: 0;
         height: 190px;
-        background: linear-gradient(187deg, #fbb4cd, rgb(173, 21, 92));
-        border-bottom: 4px solid rgb(136, 1, 30);
+        background: linear-gradient(190deg, #fbb4cd, rgb(173, 21, 92));
+        border-bottom: 4px solid #fbb4cd;
         z-index: -2;
     }
 
@@ -61,7 +61,7 @@
     }
 
     .avatar {
-        background: linear-gradient(-120deg, #fbb4cd, rgb(136, 1, 30));
+        background: linear-gradient(-120deg, #fbb4cd, rgb(158, 13, 81));
         padding: 15px;
 
         flex: 1;
